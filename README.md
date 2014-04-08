@@ -1,11 +1,9 @@
-NodeJsProxy
-===========
+#NodeJsProxy
 
-Proxy requests to different urls. SystemToken Header used for security.
+Proxy requests to different urls. A *SystemToken* Header used for security.
 
 
-Installation
-------------
+##Installation
 
 Download and install NodeJS as indicated on the [NodeJS Site](http://nodejs.org/)
 
@@ -23,23 +21,29 @@ Install the Optimist package
 
 Run the application via node
 
-References
-----------
+
+##References
 
 [MongoDB](http://docs.mongodb.org/ecosystem/drivers/node-js/)
 
 
-Mongo Db structure
-------------------
+##Mongo DB structure
+
 routes
 
 tokens
 
-Seed
-----
+
+##Seed
+
 node scripts/seed.js
 
 
-Run
----
+##Run
+
 node main.js
+
+
+##Copyright and License
+
+Licensed under the Apache License
